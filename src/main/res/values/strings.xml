@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stock Market App</string>
+
+    <string-array name="drop_down_menu">
+        <item>BSE</item>
+        <item>NSE</item>
+        <item>^NSEI</item>
+        <item>^BSESN</item>
+        <item>RELIANCE</item>
+        <item>ASHOKLEY</item>
+        <item>CIPLA.NS</item>
+        <item>EICHERMOT.NS</item>
+        <item>TATA STEELS</item>
+    </string-array>
+</resources>

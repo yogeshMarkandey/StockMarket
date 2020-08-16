@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/not_stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:text="Stock Name Here"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/not_stock_name"
+        android:layout_alignBottom="@+id/not_value"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="22dp"
+        android:text="Open :" />
+
+    <TextView
+
+        android:id="@+id/not_value"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_below="@+id/not_stock_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="0dp"
+        android:text="2679.35"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prec_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/not_stock_name"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="49dp"
+        android:text="Prev Close :"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/prev_closed_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prec_close"
+        android:layout_alignStart="@+id/prec_close"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:text="2738.27"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
