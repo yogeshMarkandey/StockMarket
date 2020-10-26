@@ -1,6 +1,6 @@
 # StockMarket
 
-
+## Overview
 This app was my submission for Hacathon 5.0 organised by Flipr.ai. 
 and it was given A grade by the judges of the event.
 
@@ -17,15 +17,11 @@ stock price fluctuation.
 
 
 
-What I have Learned from this project ?
+## What I have Learned from this project ?
 
-> Handling local SQLite Database (CURD).
-
-> Implementation and Integration of Firebase Autentication in Apps.
-
-> Implementation of Line Graphs using MPAndroidChart Library.
-
-> Notifications handeling in Android Apps.
-
-> Reading CSV file and storing it in SQLite database.
+* Handling local SQLite Database (CURD).
+* Implementation and Integration of Firebase Autentication in Apps.
+* Implementation of Line Graphs using MPAndroidChart Library.
+* Notifications handeling in Android Apps.
+* Reading CSV file and storing it in SQLite database.
 
